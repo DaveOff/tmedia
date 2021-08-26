@@ -1,0 +1,14 @@
+{
+  "description": "Get The Best Video Quality Based on The Highest Bitrate on Twitter",
+  "manifest_version": 2,
+  "name": "tMedia",
+  "version": "1.0",
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "permissions": [
+	"webRequest",
+	"webRequestBlocking",
+	"*://twitter.com/*"
+  ]
+}
